@@ -13,24 +13,24 @@
 # limitations under the License.
 
 def exercise_1(S):
+    total = 0
+    for n in S:
+        total += n
 
-    # TODO: Add up the numbers in S using a for-loop and return the sum.
-
-    return 
+    return total
 
 def exercise_2(S):
+    total_simplified = sum(S)
 
-    # TODO: Add up the numbers in S in 2 lines or less and return the sum.
-
-    return 
+    return total_simplified
 
 def exercise_3():
+    points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5)]
+    f = {}
+    for x,y in points:
+        f[(x,y)] = 8 * x + 3 * y
 
-    # TODO: Build a dictionary with:
-    #  - keys: tuple of points (x, y)
-    #  - values: value of function f = 8x + 3y
-
-    return 
+    return f
 
 # ------- Main program -------
 if __name__ == "__main__":
